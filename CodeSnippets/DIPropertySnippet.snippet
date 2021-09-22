@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Руквоводство по созданию снипетов можно найти по ссылке
+https://docs.microsoft.com/ru-ru/visualstudio/ide/walkthrough-creating-a-code-snippet?view=vs-2019 -->
+
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Private get only property</Title>
+      <Author>Aleksandr Popov</Author>
+      <Shortcut>propp</Shortcut>
+      <Description>Create a private Get only property</Description>
+    </Header>
+    <Snippet>
+      <Code
+        Language="CSharp"
+        Kind ="method decl">
+        <![CDATA[private $Type$ $Name$ {get;} ]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>Type</ID>
+          <ToolTip>Choose the property type</ToolTip>
+          <Default>int</Default>
+        </Literal>
+        <Literal>
+          <ID>Name</ID>
+          <ToolTip>Choose the property name</ToolTip>
+          <Default>MyProperty</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
