@@ -20,7 +20,8 @@ namespace HotKeys
                 .ToList();           
 
             Console.ReadLine();
-
+            Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine();
 
             Task t = Task.CompletedTask;
