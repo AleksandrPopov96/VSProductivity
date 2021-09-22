@@ -20,7 +20,7 @@ namespace HotKeys
                 .ToList();           
 
             Console.ReadLine();
-            Console.WriteLine();
+            Console.WriteLine("234");
             Console.WriteLine();
             Console.WriteLine();
 
