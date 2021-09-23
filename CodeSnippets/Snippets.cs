@@ -21,4 +21,6 @@ namespace CodeSnippetsAndSpecialCapabilities
      * 10. using - блок using
      * 11. cw - создание Console.WriteLine()
     */
+
+    // Обернуть снипетом - Ctrl + K , Ctrl + S
 }

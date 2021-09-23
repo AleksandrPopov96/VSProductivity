@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -13,11 +14,11 @@ namespace HotKeys
         {
             // Окно просмотра состояния в дебаге - Shift + F9
             // Позволяет выполнять команды, например LINQ, вызов методов, сериализацию и т.п.
-            
-            
+
+
             var numbers = Enumerable
                 .Range(1, 10000)
-                .ToList();           
+                .ToList();
 
             Console.ReadLine();
             Console.WriteLine("23456789");
